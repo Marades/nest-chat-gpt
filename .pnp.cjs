@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@nestjs/cli", "npm:9.2.0"],\
             ["@nestjs/common", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
+            ["@nestjs/config", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:2.3.1"],\
             ["@nestjs/core", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
             ["@nestjs/platform-express", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
             ["@nestjs/schematics", "virtual:0bb1b9f061408458ac4878fea829fc9443a3aabab27a132e4f534e02b1073a9171f5fcc6b45e9469bf7827fbb7ccf91e5b00b92c19fc8aa5458bf1642575728d#npm:9.0.4"],\
@@ -1475,6 +1476,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "cache-manager",\
             "class-transformer",\
             "class-validator",\
+            "reflect-metadata",\
+            "rxjs"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nestjs/config", [\
+        ["npm:2.3.1", {\
+          "packageLocation": "./.yarn/cache/@nestjs-config-npm-2.3.1-9c445a938d-3397b9a9d8.zip/node_modules/@nestjs/config/",\
+          "packageDependencies": [\
+            ["@nestjs/config", "npm:2.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:2.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/@nestjs-config-virtual-52bdb9a943/0/cache/@nestjs-config-npm-2.3.1-9c445a938d-3397b9a9d8.zip/node_modules/@nestjs/config/",\
+          "packageDependencies": [\
+            ["@nestjs/config", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:2.3.1"],\
+            ["@nestjs/common", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
+            ["@types/nestjs__common", null],\
+            ["@types/reflect-metadata", null],\
+            ["@types/rxjs", null],\
+            ["dotenv", "npm:16.0.3"],\
+            ["dotenv-expand", "npm:10.0.0"],\
+            ["lodash", "npm:4.17.21"],\
+            ["reflect-metadata", "npm:0.1.13"],\
+            ["rxjs", "npm:7.8.0"],\
+            ["uuid", "npm:9.0.0"]\
+          ],\
+          "packagePeers": [\
+            "@nestjs/common",\
+            "@types/nestjs__common",\
+            "@types/reflect-metadata",\
+            "@types/rxjs",\
             "reflect-metadata",\
             "rxjs"\
           ],\
@@ -3829,6 +3864,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
           "packageDependencies": [\
             ["dotenv", "npm:16.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-expand", [\
+        ["npm:10.0.0", {\
+          "packageLocation": "./.yarn/cache/dotenv-expand-npm-10.0.0-fa5b032ad9-2a38b470ef.zip/node_modules/dotenv-expand/",\
+          "packageDependencies": [\
+            ["dotenv-expand", "npm:10.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6551,6 +6595,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nest-chat-gpt", "workspace:."],\
             ["@nestjs/cli", "npm:9.2.0"],\
             ["@nestjs/common", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
+            ["@nestjs/config", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:2.3.1"],\
             ["@nestjs/core", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
             ["@nestjs/platform-express", "virtual:6b8b5560ed16c77e24297a364ee605b96a2f3dbc697e89b15c98b1c41a1dbacda3ced4906cc373b9a175130663d1413934fe229b9a836c8b2c1d5310bc868c74#npm:9.3.9"],\
             ["@nestjs/schematics", "virtual:0bb1b9f061408458ac4878fea829fc9443a3aabab27a132e4f534e02b1073a9171f5fcc6b45e9469bf7827fbb7ccf91e5b00b92c19fc8aa5458bf1642575728d#npm:9.0.4"],\
@@ -8366,6 +8411,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/utils-merge-npm-1.0.1-363bbdfbca-c810954932.zip/node_modules/utils-merge/",\
           "packageDependencies": [\
             ["utils-merge", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["uuid", [\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
